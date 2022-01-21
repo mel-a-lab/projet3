@@ -1,0 +1,476 @@
+body{
+	width: 100%;
+	font-family: 'Lato', sans-serif;
+}
+
+.clr{
+	clear:both;
+	width:100%;
+  }
+
+a{
+	text-decoration: none;
+}
+
+header{
+	width: 1111px;
+	margin: auto;
+}
+
+header img{
+	height: 150px;
+	float: left;
+}
+
+header nav {
+	float: right;
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: small;
+	padding: 50px 0px 0px;
+	
+}
+header a {
+	padding: 10px;
+	color: #3f3838;
+}
+
+
+.wrapper{
+	width: 1111px;
+	margin: auto;
+}
+
+footer{
+	background-color: #1D1C1E ;
+}
+
+#bloc1 {
+	
+	position: relative;
+	background-color:#F2A35C;
+	color: #fff;
+	width: 1111px;
+    height: 640px;
+    border-radius: 4%;
+	
+}
+
+#textHomeTop {
+	position: absolute;
+	z-index: 9999;
+	color: white;
+	width: 540px;
+	height: 350px;
+	padding-left: 80px;
+    padding-top: 100px;
+
+}
+
+#bloc1 #textHomeTop h1 {
+	font-size: xx-large;
+}
+
+
+#bgTopHome{
+overflow: hidden;
+}
+
+.btn {
+background-color:#400201;
+display: inline-block;
+
+color: white;
+padding: 10px 20px;
+cursor: pointer;
+border-radius: 5px;
+}
+
+#bg-circle{
+
+	position:absolute;
+	right:0px;
+	top:0px;
+	z-index:1;
+	border-radius: 50%;
+	background: rgb(91,89,89);
+	background: linear-gradient(180deg, rgba(91,89,89,0.5) 0%, rgba(91,89,89,0.1) 100%);
+	height:100%;
+	width: 55%;
+}
+
+#smartphoneHome{
+	position: absolute;
+	z-index: 2;
+	right: 1px;
+	height: 140%;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-column-gap: 30px;
+	grid-row-gap: 24px;
+	height: 640px;
+	
+	margin-top: 160px;
+  }
+  
+  .grid-container > div {
+	text-align: center;
+	padding: 20px 0;
+	font-size: 20px;
+	color: #fff;
+	border-radius: 4%;
+	width: 541px;
+	
+  }
+  
+  .item1 { 
+	  grid-row-start: 1;
+	  grid-row-end: 3;
+	  background-color: #3f3838;
+	  
+  }
+
+  .item2 {
+	  background-color: #3f3838;
+  }
+
+  .item3 {
+	background-color: #4d4545;
+  }
+
+  #conteneurbloc3{
+	  width: 1111px;
+  }
+
+  #bloc3{
+	  display: grid;
+	  grid-template-columns: auto auto auto;
+	  width: 1100px;
+	  height: 500px;
+	  grid-column-gap: 90px;
+	  margin-top: 150px;
+	  margin-right: 0px;
+
+  }
+
+
+  #bloc3 div {
+	text-align: center;
+}
+
+  #bloc4{
+	  position: relative;
+	  width: 1111px;
+	  height: 292px;
+	  top: 50px;
+	  background-color:#F2A35C;
+	  border-radius: 4%;  
+  }
+
+  .textcarrérose {
+    position: absolute;
+    color: white;
+    width: 450px;
+    height: 350px;
+    padding-left: 80px;
+    padding-top: 80px;
+}
+
+#boutoncarrérose {
+	position: relative;
+    left: 900px;
+    top: 120px;
+}
+
+  
+footer{
+	background-color: #1D1C1E;
+	width: 100%;
+	height: 393px;
+}
+
+
+
+footer img{
+	
+	height: 27px;
+	float: left;
+}
+
+footer nav {
+	float: right;
+	color: #fff;
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: small;
+}
+footer nav a {
+	padding: 10px;
+	color: #fff;
+}
+ 
+#bloc6 p{
+	padding-top: 50px;
+color: #fff;
+
+
+}
+
+#bloc6 {
+	width: 1111px;
+	margin: auto;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-column-gap: 30px;
+}
+
+#icon-rs{
+	position: relative;
+    left: 150px;
+    top: 70px;
+}
+
+#icon-rs img {
+	padding: 10px;
+}
+
+hr {
+	position: relative;
+    top: 50px;
+}
+
+/**********formulaire de contact*****************/
+
+
+.container {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea,
+#contact button[type="submit"] {
+  font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+}
+
+#contact {
+  background: #F2A35C;
+  padding: 25px;
+  margin: 150px 0;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#contact h3 {
+  display: block;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+#contact h4 {
+  margin: 5px 0 15px;
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #F0D2B7;
+  margin: 0 0 5px;
+  padding: 5px;
+}
+
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact input[type="tel"]:hover,
+#contact input[type="url"]:hover,
+#contact textarea:hover {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #aaa;
+}
+
+#contact textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+#contact button[type="submit"] {
+  cursor: pointer;
+  border: none;
+  background:#4002016c;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 7px;
+  margin-left: 125px;
+}
+
+#contact button[type="submit"]:hover {
+  background: #43A047;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+
+#contact input:focus,
+#contact textarea:focus {
+  outline: 0;
+  border: 1px solid #aaa;
+}
+
+::-webkit-input-placeholder {
+  color: #888;
+}
+
+:-moz-placeholder {
+  color: #888;
+}
+
+::-moz-placeholder {
+  color: #888;
+}
+
+:-ms-input-placeholder {
+  color: #888;
+}
+
+
+/******************réservations ************************/
+#bloc7{
+	display: flex;
+	justify-content:center;
+	margin-top:10em;
+	font-family: 'Inconsolata', monospace;
+	background-image: url(https://i.pinimg.com/originals/48/d8/9e/48d89ed20c0f5cf7bf98a9789daffcf7.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	  color:white
+	}
+	
+	.calendar{
+	  display:flex;
+	  justify-content:center;
+	  
+	}
+	
+	#reservation{
+	  margin-left:2em;
+	}
+	
+	.rooms{
+	  display:flex;
+	  justify-content:center;
+	  margin-top:2em;
+	  
+	  
+	  
+	}
+	
+	.formroom{
+	margin-right:1em;
+	}
+	
+	  .all{
+		display:flex;
+		justify-content:center;
+		flex-direction:column;
+		align-items:center;
+		border-style:double;
+		width:35em;
+		height:12em;
+		background-color: rgba(144,55,10, 0.2);
+		
+	  }
+
+
+/****************** Média queries ********************/
+
+@media screen and (max-width: 375px)
+{
+
+	.wrapper{
+		width: 370px;
+		
+	}	
+	#bloc1 {
+		width: 355px;
+	}
+	#bloc1 #textHomeTop h1 {
+		margin-right: 300px;
+	}
+	p{
+		margin-right: 300px;
+	}
+	#bg-circle{
+		width: 100%;
+	} 
+	.grid-container {
+		display: flex;
+		flex-wrap: wrap;
+		width: 375px;
+	}
+	#bloc3 {
+			display: flex;
+			flex-wrap: wrap;
+			width: 440px;
+			height: 500px;
+	}
+
+	#bloc4{
+			position: relative;
+			width: 440px;
+			height: 350px;
+			top: 360px;
+			background-color: #E7816B;
+			border-radius: 4%;
+	}
+
+    footer{
+            position: relative;
+            top: 300px;
+            background-color: #1D1C1E;
+            width: 100%;
+             height: 393px;
+	}
+
+	.grid-container > div > item1{
+		margin: auto;
+ 	}
+
+	  #smartphoneHome{
+		display: none;
+	}
+}
+
+	/****************** Fenêtre pop-up ********************/
+

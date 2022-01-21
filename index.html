@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Designo Agency Website Challenge</title>
+  <link rel="stylesheet" href="style.css" >
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="formulaire.js"</script></script>
+
+
+
+
+</head>
+<body>
+  <header>
+	  <img src="assets/web-design/desktop/les films de plein air.png"  alt="" width="" height="">
+	  <nav> 
+	      <a href="" title="" alt="" >ACTUALITÉS</a>
+		  <a href="" title="" alt="" >LES FILMS</a>
+		  <a href="#bloc5" title="" alt="" >CONTACT</a>
+	  </nav>
+	 	  
+	</header>
+
+	<div class="clr"></div>
+
+	
+
+	
+	<div class="wrapper">
+		
+	<section id="bloc1">
+
+        <div id="textHomeTop">
+          <h1>Les films de plein air </h1> 
+          <p>Du 05 août au 08 août 2022 de 18h à minuit au parc monceau à Paris <br> Réservez dès maintenant votre place <p>
+          <a class="btn" id="topHome" href="#bloc7">Réservation</a>
+		</div>
+
+		<div id="bg-circle" ></div>
+		<img id="smartphoneHome" alt="pouetpouet la galette" title="pouetpouet la galette" src="assets/home/desktop/image-hero-phone.png">
+
+      </section>
+												   
+		
+	  <div class="grid-container">
+		<div class="item1" >
+			<h2>WEB DESIGN</h2>
+            <p>VIEW PROJECT</p>
+		</div>
+		<div class="item2">
+			<h2>APP DESIGN</h2>
+            <p>VIEW PROJECT</p>
+		</div>
+		<div class="item3">
+			<h2>GRAPHIC DESIGN</h2>
+                    <p>VIEW PROJECT</p>
+		</div>  
+		
+	  </div>
+	  
+	  <div class="clr"></div>
+
+
+			 
+	
+		<section id="bloc3" >
+			<div class="col3" >
+				<img   src="assets/home/desktop/illustration-passionate.svg" alt="Passionate*" title="Passionate">
+				<h3>PASSIONATE</h3>
+				<p>Each project starts with an in-depth brand research to ensure we only create products that serve a purpose. We merge
+					art, design, and technology into exciting new solutions.</p>
+			</div>
+			<div class="col3" >
+				<img   src="assets/home/desktop/illustration-resourceful.svg" alt="RESSOURCEFUL" title="RESSOURCEFUL">
+				<h3>RESSOURCEFUL</h3>
+				<p> Everything that we do has a strategic purpose. We use an agile approach in all of our projects and value customer
+					collaboration. It guarantees superior results that fulfill our clients’ needs.
+				</p>
+			</div>
+			<div class="col3" >
+				<img   src="assets/home/desktop/illustration-friendly.svg" alt="friendly" title="friendly">
+				<h3>FRIENDLY</h3>
+				<p>We are a group of enthusiastic folks who know how to put people first. Our success depends on our customers, and we
+					strive to give them the best experience a company can provide.</p>
+			</div>
+		</section>
+
+		<section id="bloc5" >
+			<div class="container">  
+				<form id="contact" action="" method="post">
+				  <h3>Contactez-nous</h3>
+				  <h4>Contactez-nous pour toutes questions !</h4>
+				  <fieldset>
+					<input placeholder="votre nom" type="text" tabindex="1" required autofocus>
+				  </fieldset>
+				  <fieldset>
+					<input placeholder="Votre adresse mail" type="email" tabindex="2" required>
+				  </fieldset>
+				  <fieldset>
+					<input placeholder="Votre numéro de téléphone (optionnel)" type="tel" tabindex="3" required>
+				  </fieldset>
+				  <fieldset>
+					<input placeholder="Votre site web (optionnel)" type="url" tabindex="4" required>
+				  </fieldset>
+				  <fieldset>
+					<textarea placeholder="Ecrivez votre message ici...." tabindex="5" required></textarea>
+				  </fieldset>
+				  <fieldset>
+					<button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Envoyer</button>
+				  </fieldset>
+		
+				</form>
+			  </div>
+
+		</section>
+
+		<section id="bloc7" >
+			<html lang="en">
+				<head>
+				  <meta charset="UTF-8" />
+				  <title>Document</title>
+				</head>
+				<body>
+				  <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+				  <div class="main">
+					<div class="all">
+					  <h1>Réservations</h1>
+				  <div class="calendar">
+				  <form action="" name="dates" id="reservation">
+				  in
+					<input type="date" id="entree">
+				  out
+					<input type="date" id="sortie">
+					
+				  </form>
+				   </div>
+				  <div class="rooms">
+				   <div class="formroom">
+				  <form action="" name="chambres" id="chambres">
+				  Chambres
+				  <select>
+				  <option value="1">1</option>
+				  <option value="2">2</option>
+				  <option value="3">3</option>
+				  <option value="4">4</option>
+				</select>
+				
+				  </form>
+				  </div>
+				  <div class="formpeo">
+				  <form action="" name="personnes" id="personnes">
+				  Personnes
+				 <select>
+				  <option value="1">1</option>
+				  <option value="2">2</option>
+				  <option value="3">3</option>
+				  <option value="4">4</option>
+				</select>
+				  <button onclick="test()">Valider</button>
+				  </form>
+				  </div>
+				  </div>
+				 </div>
+				 
+				</body>
+				</html>
+			  
+		</section>
+
+
+		
+		
+		
+		<section id="bloc4" >
+				<div class="carrérose">
+					<div class="textcarrérose" >
+						<h3>Let’s talk about your project</h3>
+						<p>Ready to take it to the next level? Contact us today and find out how our expertise can help your business grow.
+				        </p>
+					</div>
+
+	
+
+					<div id="boutoncarrérose" >
+						<a  class="btn" href="" title="" alt="" >GET IN TOUCH</a>
+					</div>
+
+					<div id="bg-circle2" ></div>
+				</div>
+		</section>
+		
+	    </div>
+
+	<footer>
+		
+		<section id="bloc5">
+		 <img src="assets/web-design/desktop/les films de plein air.png" alt="" width="" height="">
+	  		
+	  
+	  			<nav> 
+	    		  <a href="" title="" alt="" >OUR COMPANY</a>
+				  <a href="" title="" alt="" >LOCATIONS</a>
+		 		  <a href="" title="" alt="" >CONTACT</a>
+	 			 </nav>
+			</section>
+
+			<hr>
+
+			<div class="clr" ></div>
+
+
+
+
+			
+		
+		<section id="bloc6">
+		 	<div>
+				<p>
+					Designo Central Office <br>
+  					3886 Wellington Street <br>
+ 					Toronto, Ontario M9C 3J5
+				</p>
+			</div>
+					
+			<div>
+				<p>Contact Us (Central Office) <br>
+ 					P : +1 253-863-8967 <br>
+ 	 				M : contact@designo.co</p>
+			</div>
+			<div id="icon-rs">
+				<img  href="" title="" alt=""  src="assets/shared/desktop/icon-youtube.svg"  >
+				<img href="" title="" alt="" src="assets/shared/desktop/icon-instagram.svg"  >
+				<img href="" title="" alt="" src="assets/shared/desktop/icon-pinterest.svg"  >
+				<img href="" title="" alt="" src="assets/shared/desktop/icon-twitter.svg"    >
+				<img href="" title="" alt="" src="assets/shared/desktop/icon-facebook.svg"  >
+			</div>
+		</section>
+	</footer>
+	
+
+  
+	<script type="text/javascript" src="monscript.js"></script>
+</body>
+</html>
