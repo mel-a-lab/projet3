@@ -472,5 +472,10 @@ fieldset {
 	}
 }
 
-	/****************** Fenêtre pop-up ********************/
+	/****************** bloc test ********************/
+
+	#bloctest{
+		background-color: blue;
+		height: 200px;
+	}
 
